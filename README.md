@@ -16,11 +16,10 @@ issue that needs to be further investigated.
 # Example
 
 ``` r
-source("~/Desktop/L/Notes/NAwhere/NAwhere.R")
 mtcarsNA = mtcars
 mtcarsNA[1:10,1:2] = NA
 mtcarsNA[14,1:5] = NA
 NAwhere(mtcarsNA)
 ```
 
-![](README_files/figure-gfm/unnamed-chunk-1-1.png)<!-- -->
+![](README_files/figure-gfm/unnamed-chunk-2-1.png)<!-- -->
