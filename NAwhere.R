@@ -6,6 +6,11 @@ NAwhere = function(data)
 	require(ggplot2)
 	require(tidyr)
 	
+	if(!is.data.frame(data) & !is.matrix(data))
+	{
+		stop("data argument needs to be a data.frame or matrix.")
+	}
+
 	n = nrow(data)
 	p = ncol(data)
 	
